@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Jogos Jogados</title>
     <link rel="stylesheet" href="estilopb.css"/>
+    <style>
+        .serie{
+            color: green;
+        }
+        .filme{
+            color: blue;
+        }
+        .jogo {
+            color: orangered;
+        }
+        p > .jogo {
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,20 +38,21 @@
 <p>Três últimos jogos que joguei</p>
 
 <ol> 
-     <li> Elden Ring</li>
-     <li> Outer Wilds</li>
-     <li> Sekiro</li>
-     <li> Slay the Spire</li>
+     <li class="jogo"> Elden Ring</li>
+     <li class="jogo"> Outer Wilds</li>
+     <li class="jogo"> Sekiro</li>
+     <li class="jogo"> Slay the Spire</li>
 </ol>
+<p> E o <span class="jogo"> Elden Ring</span> foi meu preferido</p>
 
 <p>Filmes e séries que assisti:</p>
 <ul>
     <li>
          <div>
             <div>Filmes</div>
-             <ul  style="color:green;">
-                 <li>Interestellar</li>
-                 <li>Hellboy</li>
+             <ul >
+                 <li class="filme"> Interestellar</li>
+                 <li class="filme"> Hellboy</li>
             </ul>
          </div>
     </li> 
